@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Task</title>
+
+<script type="text/javascript">
+function show()
+{
+  alert('testing');
+  console.log('in show()');
+  var n1= document.getElementById('num1').value;
+  var n2= document.getElementById('num2').value;
+  
+  var n3 = parseInt(n1)+parseInt(n2);
+  document.getElementById('result').value=n3; 
+  
+  
+}
+</script>
+<style type="text/css">
+
+
+</style>
+</head>
+<body bgcolor="sky blue">
+<center>
+<marquee><h1>WELCOME</h1></marquee>
+<br><br><br><br><br>
+<h2>MARWADI UNIVERSITY</h2>
+<img src="images/download.jfif" height="200px" width="200px">
+<br><br><br>
+
+Enter Your Name<input type="text" name="name"/>
+<br><br><br>
+Enter Number1:<input type="number" id="num1"/>
+Enter Number2:<input type="number" id="num2"/>
+<br><br>
+result:<input type="number" id="result"/>
+<input type="button" onClick="show()" value="calculate"><br>
+
+
+	
+</center>
+</body>
+</html>
